@@ -1,0 +1,162 @@
+# Configuration du benchmark PER - Classification de logs CI/CD
+# ============================================================
+
+project:
+  name: "PER - Benchmark ML vs Transformers pour Classification Logs CI/CD"
+  version: "1.0.0"
+  author: "Alternant Ingénieur Logiciel/Data"
+
+# Configuration des données
+data:
+  raw_path: "data/raw"
+  processed_path: "data/processed"
+  small_dataset_path: "data/small_dataset"
+  large_dataset_path: "data/large_dataset"
+  
+  # Tailles des datasets
+  small_dataset_size: 1000      # Simulation QA Rates
+  large_dataset_size: 10000     # Simulation QA Shopping
+  
+  # Ratio train/validation/test
+  train_ratio: 0.7
+  val_ratio: 0.15
+  test_ratio: 0.15
+  
+  # Labels
+  labels:
+    flaky: 0          # flaky / false positive
+    regression: 1     # non flaky (possible regression)
+  
+  # Balance des classes
+  class_balance: 0.5  # 50% flaky, 50% regression
+
+# Prétraitement
+preprocessing:
+  # Patterns à supprimer
+  remove_patterns:
+    - '\d{4}-\d{2}-\d{2}[T\s]\d{2}:\d{2}:\d{2}'  # Timestamps ISO
+    - '\d{2}/\d{2}/\d{4}\s\d{2}:\d{2}:\d{2}'     # Timestamps US
+    - '[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}'  # UUIDs
+    - '/[a-zA-Z0-9_/\-\.]+/'                      # Chemins systèmes
+    - '\b(?:\d{1,3}\.){3}\d{1,3}\b'              # Adresses IP
+    - '0x[a-fA-F0-9]+'                           # Adresses mémoire
+    - '\[.*?\]'                                   # Metadata entre crochets
+  
+  # Mots-clés à conserver/filtrer
+  important_keywords:
+    - "error"
+    - "fail"
+    - "exception"
+    - "assert"
+    - "timeout"
+    - "null"
+    - "undefined"
+    - "crash"
+    - "fatal"
+    - "warning"
+    - "flaky"
+    - "retry"
+    - "unstable"
+    - "intermittent"
+  
+  # Normalisation
+  lowercase: true
+  remove_special_chars: true
+  min_line_length: 10
+  max_line_length: 512
+
+# Configuration ML (Boosting)
+ml:
+  # TF-IDF
+  tfidf:
+    max_features: 5000
+    ngram_range: [1, 2]
+    min_df: 2
+    max_df: 0.95
+    sublinear_tf: true
+  
+  # XGBoost
+  xgboost:
+    n_estimators: 100
+    max_depth: 6
+    learning_rate: 0.1
+    subsample: 0.8
+    colsample_bytree: 0.8
+    random_state: 42
+    eval_metric: "logloss"
+    early_stopping_rounds: 10
+  
+  # AdaBoost
+  adaboost:
+    n_estimators: 100
+    learning_rate: 0.1
+    algorithm: "SAMME.R"
+    random_state: 42
+  
+  # Gradient Boosting
+  gradient_boosting:
+    n_estimators: 100
+    max_depth: 6
+    learning_rate: 0.1
+    subsample: 0.8
+    random_state: 42
+    validation_fraction: 0.1
+    n_iter_no_change: 10
+
+# Configuration Transformers
+transformers:
+  # Paramètres communs
+  common:
+    max_length: 256
+    batch_size: 16
+    epochs: 3
+    learning_rate: 0.00002
+    warmup_ratio: 0.1
+    weight_decay: 0.01
+    seed: 42
+  
+  # BERT
+  bert:
+    model_name: "bert-base-uncased"
+    num_labels: 2
+  
+  # DistilBERT
+  distilbert:
+    model_name: "distilbert-base-uncased"
+    num_labels: 2
+  
+  # RoBERTa
+  roberta:
+    model_name: "roberta-base"
+    num_labels: 2
+  
+  # Ollama (LLM local)
+  ollama:
+    model_name: "llama3.2"  # ou mistral, gemma2, phi3, etc.
+    base_url: "http://localhost:11434"
+    num_labels: 2
+
+# Métriques d'évaluation
+evaluation:
+  metrics:
+    - "accuracy"
+    - "precision"
+    - "recall"
+    - "f1"
+  
+  # Mesures de performance
+  measure_training_time: true
+  measure_inference_time: true
+  measure_memory_usage: true
+  
+  # Nombre de runs pour moyenner les résultats
+  num_runs: 3
+
+# Chemins de sortie
+output:
+  results_path: "results"
+  ml_results: "results/ml"
+  transformer_results: "results/transformers"
+  comparative_results: "results/comparative"
+  models_path: "models"
+  figures_path: "results/figures"

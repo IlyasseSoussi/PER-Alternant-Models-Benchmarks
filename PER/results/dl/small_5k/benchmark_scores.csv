@@ -1,0 +1,4 @@
+model_name,score_f1_test,score_overfit,score_speed,score_memory,score_token_loss,total_score
+BERT,1.0,1.0,0.1218404122274285,0.0,1.0,0.7121840412227429
+RoBERTa,0.24559175780194684,0.5840336134453782,0.0,0.9154204447028752,1.0,0.5397241534058916
+DistilBERT,0.0,0.0,1.0,1.0,1.0,0.5

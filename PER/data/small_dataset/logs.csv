@@ -1,0 +1,1001 @@
+log_text,label
+[INFO] Authorization failure for execute on cache,1
+Critical bug in AuthModule: data corruption detected,1
+Out of memory error during write,1
+SCHEMA VALIDATION ERROR: MISSING REQUIRED FIELD (SEE LOGS FOR DETAILS),1
+"Connection to UserService timed out after 10000ms, retrying...",0
+CRITICAL: Unhandled null reference in AuthModule,1
+Assertion failed: x > 0 at Module.go:42,1
+[WARN] Array index out of bounds at data[1000],1
+Verification failed: result should not be null,1
+RANDOM FAILURE DETECTED IN E2ETEST.TESTCREATE,0
+ERROR: Linker error: unresolved symbol 'cleanup',1
+"WARN: Concurrent access issue detected, marking as flaky",0
+API contract violation: missing required field 'user_id',1
+Logic error: division by zero in compute,1
+[INFO] Stack overflow in recursive call at compute,1
+CRITICAL: Unhandled null reference in CacheManager,1
+"DATABASE CONNECTION POOL EXHAUSTED, WAITING FOR FREE CONNECTION...",0
+Heap corruption detected in custom_allocator,1
+REGRESSION: FEATURE REPORT-GENERATION BROKEN AFTER COMMIT DEF5678,1
+Spurious failure in parallel test execution: TestAPIEndpoint,0
+[INFO] Build failed: syntax error in Handler.ts:128,1
+"Thread timing issue in TestUserLogin, intermittent failure",0
+Non-deterministic test result in TestPaymentFlow,0
+OUT OF MEMORY ERROR DURING EXECUTE,1
+Spurious failure in parallel test execution: TestPaymentFlow,0
+Intermittent failure in TestDataSync: connection reset by peer,0
+"Concurrent access issue detected, marking as flaky",0
+[WARN] API contract violation: missing required field 'status' !,1
+Security violation: invalid token in AuthService,1
+[ERROR] HEAP CORRUPTION DETECTED IN DEFAULT_ALLOCATOR,1
+"[DEBUG] TEST TESTAPIENDPOINT IS UNSTABLE, SKIPPING FOR NOW",0
+"ERROR: Database connection pool exhausted, waiting for free connection",0
+[ERROR] Stack overflow in recursive call at validate,1
+Intermittent failure in TestDataSync: connection reset by peer,0
+"[DEBUG] CI infrastructure hiccup, restarting job [retryable]",0
+Deadlock detected but recovered in CacheManager,0
+CRITICAL: Unhandled null reference in CacheManager [retryable],1
+ERROR: Process crashed with signal SIGSEGV,1
+Array index out of bounds at data[10] !,1
+[ERROR] Temporary resource exhaustion in thread_pool...,0
+Deadlock detected but recovered in AuthModule,0
+[WARN] Test flapping: TestDataSync passed after 5 retries,0
+"Timeout waiting for file lock, test marked as flaky",0
+Verification failed: values should match,1
+Temporary resource exhaustion in memory_pool,0
+"FLAKY: Test TestPaymentFlow failed intermittently, known issue !",0
+LINKER ERROR: UNRESOLVED SYMBOL 'INIT' [RETRYABLE],1
+"BUG: Incorrect calculation in calculateTotal: expected 200, got []",1
+JENKINS AGENT DISCONNECTED TEMPORARILY DURING BUILD,0
+Security violation: invalid token in AuthService,1
+Heap corruption detected in custom_allocator,1
+Array index out of bounds at data[1000],1
+"NETWORK ERROR: CONNECTION REFUSED TO API-HOST:9200, ATTEMPT 1/3",0
+WARN: Authorization failure for execute on connection pool,1
+Temporary resource exhaustion in connection_pool !,0
+"Container startup timeout, extending deadline",0
+Array index out of bounds at data[1000],1
+Spurious failure in parallel test execution: TestPaymentFlow,0
+"WARN: Database connection pool exhausted, waiting for free connection",0
+Schema validation error: invalid format,1
+Deadlock detected but recovered in Scheduler,0
+Spurious failure in parallel test execution: TestUserLogin,0
+CRITICAL: Authentication bypass detected in /api/auth,1
+"DATABASE CONNECTION POOL EXHAUSTED, WAITING FOR FREE CONNECTION",0
+Permission denied: user user123 lacks access to connection pool,1
+Linker error: unresolved symbol 'main',1
+AssertionError: Expected 200 but got null,1
+REGRESSION: Feature report-generation broken after commit abc1234,1
+"Connection to DatabaseService timed out after 30000ms, retrying...",0
+CRITICAL: Authentication bypass detected in /api/users,1
+Random failure detected in E2ETest.testDelete,0
+"Socket timeout during write, will retry",0
+Verification failed: list should not be empty,1
+Missing dependency: libpq required by services,1
+Deadlock detected but recovered in DataLayer,0
+"ERROR: Concurrent access issue detected, marking as flaky",0
+[DEBUG] Process crashed with signal SIGSEGV !,1
+"[DEBUG] Test TestPaymentFlow is unstable, skipping for now [retryable]",0
+Array index out of bounds at data[10],1
+"Network error: connection refused to db-server:5432, attempt 2/3 !",0
+[WARN] Missing dependency: node_modules required by handlers,1
+"Socket timeout during write, will retry !",0
+"WARN: Build node worker-3 experiencing high load, test delayed",0
+"Concurrent access issue detected, marking as flaky",0
+"[WARN] Cache miss caused timeout, retrying operation",0
+[DEBUG] REGRESSION: Output differs from expected in TestCacheInvalidation,1
+ERROR: Verification failed: list should not be empty,1
+Build failed: syntax error in Main.java:128,1
+AssertionError: Expected 42 but got 500 (see logs for details),1
+[WARN] Spurious failure in parallel test execution: TestConcurrentAccess,0
+"Container startup timeout, extending deadline",0
+Test flapping: TestConcurrentAccess passed after 2 retries,0
+SCHEMA VALIDATION ERROR: MISSING REQUIRED FIELD,1
+"Test TestConcurrentAccess is unstable, skipping for now (see logs for details)",0
+Integration test failed: service CacheService returned unexpected status 401,1
+"Test TestAPIEndpoint is unstable, skipping for now",0
+[WARN] CRITICAL: Unhandled null reference in Scheduler,1
+Resource temporarily unavailable: database,0
+Spurious failure in parallel test execution: TestAuthFlow !,0
+Missing dependency: node_modules required by services,1
+Critical bug in DataLayer: data corruption detected,1
+"FLAKY: Test TestConcurrentAccess failed intermittently, known issue...",0
+"Test assertion mismatch: expected=200, actual=null",1
+"[WARN] Test TestUserLogin is unstable, skipping for now [retryable]",0
+[WARN] TypeError: Cannot read property 'name' of undefined,1
+Type mismatch in Module.go: cannot convert float to int !,1
+Integration test failed: service MessageQueue returned unexpected status 503 (see logs for details),1
+Heap corruption detected in custom_allocator,1
+Resource temporarily unavailable: connection pool,0
+[WARN] Out of memory error during execute,1
+Integration test failed: service PaymentGateway returned unexpected status 404,1
+[INFO] Security violation: invalid token in MessageQueue,1
+"WARN: AssertionError: Expected ""success"" but got null",1
+[DEBUG] Integration test failed: service MessageQueue returned unexpected status 401,1
+Deadlock detected but recovered in Scheduler...,0
+Jenkins agent disconnected temporarily during deploy,0
+"[DEBUG] Cache miss caused timeout, retrying operation",0
+[INFO] Type mismatch in Service.py: cannot convert string to string,1
+WARN: REGRESSION: Output differs from expected in TestAuthFlow,1
+[INFO] Temporary resource exhaustion in thread_pool,0
+"TEST ASSERTION MISMATCH: EXPECTED=200, ACTUAL=[]",1
+"WARN: Test TestDataSync is unstable, skipping for now...",0
+[ERROR] Assertion failed: x > 0 at Controller.cs:42 [retryable],1
+"Timeout waiting for connection pool, test marked as flaky",0
+"DATABASE CONNECTION POOL EXHAUSTED, WAITING FOR FREE CONNECTION",0
+Type mismatch in Module.go: cannot convert int to int,1
+Schema validation error: missing required field,1
+"Socket timeout during read, will retry",0
+TypeError: Cannot read property 'result' of undefined,1
+Build failed: syntax error in Controller.cs:512,1
+[INFO] CRITICAL: Authentication bypass detected in /api/users,1
+Verification failed: values should match,1
+Jenkins agent disconnected temporarily during test,0
+Assertion failed: result != null at Service.py:512 (see logs for details),1
+FATAL: NullPointerException at DataRepository.process:512,1
+Service CacheService temporarily unavailable,0
+"Test TestAuthFlow is unstable, skipping for now",0
+Service DatabaseService temporarily unavailable,0
+Temporary resource exhaustion in connection_pool,0
+"[INFO] Connection to PaymentGateway timed out after 10000ms, retrying......",0
+"Thread timing issue in TestDataSync, intermittent failure",0
+[DEBUG] Deadlock detected but recovered in EventBus,0
+CRITICAL: Unhandled null reference in DataLayer,1
+Spurious failure in parallel test execution: TestCacheInvalidation,0
+Critical bug in AuthModule: data corruption detected [retryable],1
+Compilation error: undefined reference to 'process_data',1
+ValueError: Expected array but got NaN,1
+Temporary resource exhaustion in connection_pool...,0
+[INFO] FATAL ERROR: Segmentation fault in AuthModule,1
+"ERROR: Container startup timeout, extending deadline",0
+Type mismatch in Handler.ts: cannot convert string to int,1
+"FLAKY: Test TestConcurrentAccess failed intermittently, known issue",0
+"ASSERTIONERROR: EXPECTED 42 BUT GOT ""ERROR"" !",1
+[WARN] Test flapping: TestDataSync passed after 2 retries,0
+FATAL ERROR: Segmentation fault in CacheManager,1
+"[INFO] CI infrastructure hiccup, restarting job [retryable]",0
+"Possible race condition in CacheManager, test unreliable",0
+NullReferenceException in org.project.core.PaymentService,1
+"Network error: connection refused to localhost:5432, attempt 1/3",0
+Security violation: invalid token in NotificationService (see logs for details),1
+[INFO] REGRESSION: Feature report-generation broken after commit ghi9012,1
+FATAL ERROR: Segmentation fault in CacheManager,1
+Missing dependency: node_modules required by handlers,1
+Stack overflow in recursive call at execute,1
+FATAL ERROR: Segmentation fault in AuthModule,1
+[WARN] FATAL ERROR: Segmentation fault in EventBus,1
+"WARN: CONCURRENT ACCESS ISSUE DETECTED, MARKING AS FLAKY !",0
+Compilation error: undefined reference to 'cleanup',1
+Spurious failure in parallel test execution: TestConcurrentAccess,0
+TEMPORARY RESOURCE EXHAUSTION IN THREAD_POOL,0
+"Connection to MessageQueue timed out after 10000ms, retrying...",0
+"WARN: Thread timing issue in TestAuthFlow, intermittent failure...",0
+Intermittent failure in TestConcurrentAccess: connection reset by peer,0
+FATAL ERROR: Segmentation fault in CacheManager,1
+Temporary resource exhaustion in memory_pool,0
+Random failure detected in PaymentTest.testCreate...,0
+WARN: Test flapping: TestAuthFlow passed after 2 retries [retryable],0
+Jenkins agent disconnected temporarily during deploy,0
+Build failed: syntax error in Controller.cs:42,1
+FATAL: NullPointerException at UserController.process:1024 (see logs for details),1
+"Concurrent access issue detected, marking as flaky",0
+[ERROR] Build failed: syntax error in Module.go:1024,1
+Random failure detected in PaymentTest.testCreate,0
+FATAL ERROR: Segmentation fault in AuthModule,1
+Linker error: unresolved symbol 'process_data',1
+ERROR: JENKINS AGENT DISCONNECTED TEMPORARILY DURING BUILD,0
+Random failure detected in UserServiceTest.testUpdate,0
+"WARN: Concurrent access issue detected, marking as flaky",0
+Verification failed: values should match !,1
+Security violation: invalid token in MessageQueue,1
+ValueError: Expected object but got NaN...,1
+[WARN] CRITICAL: Unhandled null reference in AuthModule,1
+CRITICAL: Unhandled null reference in EventBus,1
+"Timeout waiting for cache, test marked as flaky",0
+"TIMEOUT WAITING FOR CACHE, TEST MARKED AS FLAKY",0
+"Possible race condition in EventBus, test unreliable",0
+"Build node worker-3 experiencing high load, test delayed",0
+"[DEBUG] Container startup timeout, extending deadline",0
+Integration test failed: service PaymentGateway returned unexpected status 401,1
+"Concurrent access issue detected, marking as flaky",0
+Temporary resource exhaustion in memory_pool,0
+"BUG: Incorrect calculation in processPayment: expected 200, got 500",1
+TypeError: Cannot read property 'id' of undefined (see logs for details),1
+ValueError: Expected array but got null,1
+Array index out of bounds at results[1000],1
+ERROR: Authorization failure for delete on connection pool,1
+Temporary resource exhaustion in memory_pool,0
+Logic error: division by zero in compute,1
+"SOCKET TIMEOUT DURING WRITE, WILL RETRY",0
+Build failed: syntax error in Main.java:256,1
+"Database connection pool exhausted, waiting for free connection",0
+"Network error: connection refused to worker-1:27017, attempt 1/3",0
+LINKER ERROR: UNRESOLVED SYMBOL 'INIT',1
+"WARN: AssertionError: Expected ""success"" but got null",1
+[ERROR] REGRESSION: Feature data-export broken after commit ghi9012,1
+"[INFO] Cache miss caused timeout, retrying operation",0
+"BUG: Incorrect calculation in calculateTotal: expected [1,2,3], got 500",1
+"Timeout waiting for file lock, test marked as flaky",0
+TYPEERROR: CANNOT READ PROPERTY 'DATA' OF UNDEFINED,1
+Type mismatch in Module.go: cannot convert string to boolean,1
+"FLAKY: Test TestUserLogin failed intermittently, known issue",0
+WARN: AUTHORIZATION FAILURE FOR WRITE ON DATABASE,1
+REGRESSION: Output differs from expected in TestPaymentFlow,1
+ERROR: Intermittent failure in TestConcurrentAccess: connection reset by peer (see logs for details),0
+ERROR: NullReferenceException in org.project.core.CacheHandler,1
+"ERROR: Network error: connection refused to localhost:8080, attempt 1/3 [retryable]",0
+AssertionError: Expected 42 but got false,1
+[DEBUG] Deadlock detected but recovered in AuthModule,0
+WARN: Verification failed: result should not be null,1
+ERROR: Missing dependency: libssl required by services,1
+Test flapping: TestAuthFlow passed after 5 retries,0
+CRITICAL: Unhandled null reference in Scheduler...,1
+"Timeout waiting for connection pool, test marked as flaky",0
+[DEBUG] FATAL: NullPointerException at UserController.validate:128,1
+"WARN: Test TestUserLogin is unstable, skipping for now (see logs for details)",0
+"Build node worker-3 experiencing high load, test delayed",0
+ERROR: Resource temporarily unavailable: memory,0
+[INFO] Process crashed with signal SIGSEGV,1
+Jenkins agent disconnected temporarily during test,0
+Jenkins agent disconnected temporarily during test (see logs for details),0
+"CI infrastructure hiccup, restarting job",0
+Test flapping: TestConcurrentAccess passed after 2 retries,0
+ERROR: NullReferenceException in app.modules.DataRepository !,1
+Logic error: division by zero in process,1
+Non-deterministic test result in TestConcurrentAccess,0
+"[WARN] FLAKY: Test TestAuthFlow failed intermittently, known issue",0
+Deadlock detected but recovered in DataLayer,0
+"Build node node-1 experiencing high load, test delayed",0
+"Database connection pool exhausted, waiting for free connection",0
+Deadlock detected but recovered in CacheManager (see logs for details),0
+"Thread timing issue in TestAPIEndpoint, intermittent failure",0
+[WARN] CRITICAL: Authentication bypass detected in /api/data,1
+[DEBUG] FATAL ERROR: Segmentation fault in AuthModule,1
+WARN: Out of memory error during write,1
+"TEST TESTCACHEINVALIDATION IS UNSTABLE, SKIPPING FOR NOW",0
+[ERROR] Deadlock detected but recovered in DataLayer,0
+REGRESSION: Feature report-generation broken after commit def5678 (see logs for details),1
+[DEBUG] CRITICAL: Authentication bypass detected in /api/payments,1
+"BUG: Incorrect calculation in calculateTotal: expected 200, got []",1
+"Possible race condition in AuthModule, test unreliable",0
+WARN: REGRESSION: Feature report-generation broken after commit def5678 (see logs for details),1
+"[ERROR] CONCURRENT ACCESS ISSUE DETECTED, MARKING AS FLAKY",0
+"[DEBUG] CI infrastructure hiccup, restarting job",0
+"NETWORK ERROR: CONNECTION REFUSED TO CACHE-NODE:8080, ATTEMPT 2/3 [RETRYABLE]",0
+"Network error: connection refused to localhost:3306, attempt 3/3",0
+CRITICAL: Unhandled null reference in Scheduler...,1
+FATAL: NullPointerException at DataRepository.validate:512,1
+Deadlock detected but recovered in EventBus,0
+Schema validation error: constraint violation,1
+[ERROR] Non-deterministic test result in TestCacheInvalidation,0
+TEST FLAPPING: TESTAPIENDPOINT PASSED AFTER 2 RETRIES,0
+"[WARN] Thread timing issue in TestCacheInvalidation, intermittent failure",0
+AssertionError: Expected true but got [],1
+"[DEBUG] Concurrent access issue detected, marking as flaky !",0
+[WARN] API CONTRACT VIOLATION: MISSING REQUIRED FIELD 'USER_ID',1
+"Possible race condition in CacheManager, test unreliable",0
+"FLAKY: Test TestPaymentFlow failed intermittently, known issue",0
+[DEBUG] Build failed: syntax error in Main.java:42,1
+"FLAKY: Test TestAPIEndpoint failed intermittently, known issue",0
+"Test assertion mismatch: expected=[1,2,3], actual=false",1
+NullReferenceException in app.modules.PaymentService,1
+[WARN] Array index out of bounds at results[-1],1
+[WARN] Test flapping: TestDataSync passed after 2 retries,0
+"[INFO] Timeout waiting for file lock, test marked as flaky",0
+Intermittent failure in TestCacheInvalidation: connection reset by peer,0
+NullReferenceException in org.project.core.CacheHandler,1
+"Database connection pool exhausted, waiting for free connection",0
+[DEBUG] Jenkins agent disconnected temporarily during build,0
+Service DatabaseService temporarily unavailable,0
+Process crashed with signal SIGSEGV,1
+"ERROR: AssertionError: Expected [1,2,3] but got null",1
+WARN: Stack overflow in recursive call at transform (see logs for details),1
+Process crashed with signal SIGSEGV,1
+[DEBUG] Intermittent failure in TestPaymentFlow: connection reset by peer,0
+"Container startup timeout, extending deadline",0
+"[INFO] Socket timeout during execute, will retry",0
+Verification failed: result should not be null,1
+"Cache miss caused timeout, retrying operation",0
+JENKINS AGENT DISCONNECTED TEMPORARILY DURING DEPLOY,0
+"Socket timeout during delete, will retry",0
+[INFO] TypeError: Cannot read property 'result' of undefined,1
+"Build node node-1 experiencing high load, test delayed",0
+Temporary resource exhaustion in memory_pool !,0
+Resource temporarily unavailable: file lock,0
+"Response mismatch in /api/data: expected HTTP true, got false",1
+FATAL ERROR: Segmentation fault in CacheManager,1
+Temporary resource exhaustion in connection_pool [retryable],0
+"[ERROR] AssertionError: Expected [1,2,3] but got null (see logs for details)",1
+MISSING DEPENDENCY: VENDOR REQUIRED BY UTILS,1
+Build failed: syntax error in Controller.cs:256,1
+Verification failed: values should match,1
+AssertionError: Expected true but got false,1
+"[WARN] AssertionError: Expected 42 but got ""error""",1
+REGRESSION: Output differs from expected in TestPaymentFlow,1
+"WARN: CI INFRASTRUCTURE HICCUP, RESTARTING JOB",0
+"TIMEOUT WAITING FOR FILE LOCK, TEST MARKED AS FLAKY",0
+"Thread timing issue in TestAPIEndpoint, intermittent failure...",0
+[ERROR] Jenkins agent disconnected temporarily during validate,0
+FATAL: NullPointerException at UserController.handle:256,1
+"Network error: connection refused to cache-node:5432, attempt 1/3",0
+"FLAKY: Test TestAPIEndpoint failed intermittently, known issue",0
+WARN: Non-deterministic test result in TestAPIEndpoint,0
+"CACHE MISS CAUSED TIMEOUT, RETRYING OPERATION",0
+[WARN] Process crashed with signal SIGSEGV,1
+[DEBUG] Verification failed: list should not be empty,1
+Stack overflow in recursive call at compute,1
+"[ERROR] Build node node-2 experiencing high load, test delayed",0
+[ERROR] Test flapping: TestAuthFlow passed after 3 retries,0
+"Test assertion mismatch: expected=42, actual=null",1
+"CI infrastructure hiccup, restarting job",0
+Schema validation error: invalid format...,1
+"Database connection pool exhausted, waiting for free connection !",0
+VALUEERROR: EXPECTED ARRAY BUT GOT NAN !,1
+CRITICAL: Authentication bypass detected in /api/users,1
+[INFO] Jenkins agent disconnected temporarily during build,0
+"ERROR: Socket timeout during read, will retry",0
+Linker error: unresolved symbol 'cleanup',1
+NullReferenceException in app.modules.DataRepository,1
+SCHEMA VALIDATION ERROR: CONSTRAINT VIOLATION,1
+FATAL ERROR: Segmentation fault in EventBus,1
+"ERROR: Possible race condition in CacheManager, test unreliable [retryable]",0
+"Connection to APIGateway timed out after 10000ms, retrying...",0
+"BUILD NODE WORKER-3 EXPERIENCING HIGH LOAD, TEST DELAYED",0
+"CI infrastructure hiccup, restarting job",0
+"CI infrastructure hiccup, restarting job",0
+"Concurrent access issue detected, marking as flaky !",0
+[ERROR] FATAL ERROR: Segmentation fault in CacheManager,1
+REGRESSION: Feature payment-flow broken after commit ghi9012 (see logs for details),1
+"[WARN] Test TestAuthFlow is unstable, skipping for now",0
+WARN: FATAL ERROR: Segmentation fault in AuthModule,1
+"Network error: connection refused to api-host:8080, attempt 2/3",0
+Test flapping: TestAuthFlow passed after 2 retries,0
+"[DEBUG] RESPONSE MISMATCH IN /API/DATA: EXPECTED HTTP TRUE, GOT 500 !",1
+"Thread timing issue in TestDataSync, intermittent failure",0
+Jenkins agent disconnected temporarily during deploy !,0
+"Cache miss caused timeout, retrying operation",0
+"[DEBUG] Possible race condition in EventBus, test unreliable",0
+Service APIGateway temporarily unavailable,0
+WARN: Non-deterministic test result in TestAuthFlow,0
+"Test TestDataSync is unstable, skipping for now",0
+"Test TestDataSync is unstable, skipping for now...",0
+Compilation error: undefined reference to 'process_data',1
+"Connection to CacheService timed out after 30000ms, retrying...",0
+Jenkins agent disconnected temporarily during build...,0
+Deadlock detected but recovered in DataLayer [retryable],0
+[DEBUG] Service AuthService temporarily unavailable,0
+Out of memory error during execute,1
+"Build node worker-3 experiencing high load, test delayed",0
+Jenkins agent disconnected temporarily during deploy !,0
+WARN: Build failed: syntax error in Main.java:512,1
+Service APIGateway temporarily unavailable,0
+"BUG: Incorrect calculation in processPayment: expected [1,2,3], got ""error""",1
+Non-deterministic test result in TestAuthFlow,0
+TEMPORARY RESOURCE EXHAUSTION IN MEMORY_POOL...,0
+"Network error: connection refused to cache-node:9200, attempt 1/3",0
+[INFO] Process crashed with signal SIGSEGV [retryable],1
+Service UserService temporarily unavailable,0
+Test flapping: TestAPIEndpoint passed after 5 retries [retryable],0
+Assertion failed: count == expected at Handler.ts:42,1
+ValueError: Expected object but got object,1
+"[WARN] Build node worker-3 experiencing high load, test delayed",0
+"Build node node-1 experiencing high load, test delayed",0
+Critical bug in EventBus: data corruption detected,1
+"Cache miss caused timeout, retrying operation...",0
+Spurious failure in parallel test execution: TestConcurrentAccess,0
+Permission denied: user user123 lacks access to file lock,1
+"BUG: Incorrect calculation in validateInput: expected [1,2,3], got ""error"" !",1
+[WARN] Intermittent failure in TestAuthFlow: connection reset by peer,0
+Assertion failed: result != null at Main.java:512 !,1
+Process crashed with signal SIGSEGV,1
+"Build node node-1 experiencing high load, test delayed",0
+ERROR: Service PaymentGateway temporarily unavailable,0
+Type mismatch in Module.go: cannot convert float to string,1
+"WARN: Network error: connection refused to api-host:3306, attempt 3/3 (see logs for details)",0
+ERROR: Process crashed with signal SIGSEGV,1
+"Connection to CacheService timed out after 1000ms, retrying... (see logs for details)",0
+"[ERROR] NETWORK ERROR: CONNECTION REFUSED TO CACHE-NODE:5432, ATTEMPT 3/3",0
+"Database connection pool exhausted, waiting for free connection",0
+Missing dependency: libpq required by handlers !,1
+REGRESSION: OUTPUT DIFFERS FROM EXPECTED IN TESTCONCURRENTACCESS,1
+[INFO] Temporary resource exhaustion in memory_pool,0
+"Concurrent access issue detected, marking as flaky [retryable]",0
+REGRESSION: Output differs from expected in TestAPIEndpoint,1
+REGRESSION: Output differs from expected in TestCacheInvalidation (see logs for details),1
+Critical bug in Scheduler: data corruption detected,1
+Schema validation error: missing required field,1
+"AssertionError: Expected ""success"" but got 500",1
+"Database connection pool exhausted, waiting for free connection",0
+"Build node worker-3 experiencing high load, test delayed",0
+Schema validation error: missing required field,1
+REGRESSION: Output differs from expected in TestCacheInvalidation,1
+REGRESSION: Output differs from expected in TestAPIEndpoint,1
+Assertion failed: result != null at Service.py:512,1
+"Container startup timeout, extending deadline",0
+[WARN] REGRESSION: Feature data-export broken after commit def5678,1
+Process crashed with signal SIGSEGV,1
+Linker error: unresolved symbol 'main',1
+AssertionError: Expected 200 but got 500...,1
+[ERROR] Permission denied: user user123 lacks access to connection pool,1
+"Possible race condition in AuthModule, test unreliable",0
+Resource temporarily unavailable: memory,0
+WARN: ValueError: Expected object but got object,1
+[WARN] Service PaymentGateway temporarily unavailable,0
+[WARN] Linker error: unresolved symbol 'init' (see logs for details),1
+"Thread timing issue in TestUserLogin, intermittent failure",0
+"Network error: connection refused to db-server:9200, attempt 1/3",0
+"[ERROR] Container startup timeout, extending deadline",0
+Service APIGateway temporarily unavailable [retryable],0
+Schema validation error: constraint violation,1
+Resource temporarily unavailable: file lock,0
+"SOCKET TIMEOUT DURING WRITE, WILL RETRY !",0
+Temporary resource exhaustion in memory_pool,0
+"FLAKY: Test TestDataSync failed intermittently, known issue...",0
+"Possible race condition in Scheduler, test unreliable",0
+Intermittent failure in TestConcurrentAccess: connection reset by peer,0
+"WARN: Thread timing issue in TestAPIEndpoint, intermittent failure",0
+"Concurrent access issue detected, marking as flaky",0
+"Possible race condition in CacheManager, test unreliable",0
+Security violation: invalid token in MessageQueue,1
+Process crashed with signal SIGSEGV,1
+"CI infrastructure hiccup, restarting job (see logs for details)",0
+"[INFO] BUG: INCORRECT CALCULATION IN VALIDATEINPUT: EXPECTED 200, GOT FALSE",1
+"AssertionError: Expected ""success"" but got 500",1
+Process crashed with signal SIGSEGV,1
+"BUG: Incorrect calculation in validateInput: expected ""success"", got null",1
+Compilation error: undefined reference to 'main',1
+Security violation: invalid token in DatabaseService,1
+"CI infrastructure hiccup, restarting job !",0
+ERROR: Array index out of bounds at results[99],1
+Assertion failed: count == expected at Handler.ts:1024 (see logs for details),1
+Linker error: unresolved symbol 'main',1
+[WARN] Out of memory error during read,1
+"WARN: Network error: connection refused to localhost:6379, attempt 2/3",0
+"WARN: CI infrastructure hiccup, restarting job",0
+WARN: Service MessageQueue temporarily unavailable (see logs for details),0
+REGRESSION: Feature user-login broken after commit ghi9012...,1
+[INFO] TypeError: Cannot read property 'result' of undefined [retryable],1
+TypeError: Cannot read property 'result' of undefined (see logs for details),1
+[DEBUG] Non-deterministic test result in TestCacheInvalidation,0
+"[INFO] Possible race condition in DataLayer, test unreliable [retryable]",0
+"CI infrastructure hiccup, restarting job",0
+"Possible race condition in EventBus, test unreliable [retryable]",0
+Process crashed with signal SIGSEGV,1
+CRITICAL: Unhandled null reference in CacheManager,1
+WARN: Temporary resource exhaustion in thread_pool [retryable],0
+Resource temporarily unavailable: memory,0
+Non-deterministic test result in TestAuthFlow,0
+"Cache miss caused timeout, retrying operation",0
+Linker error: unresolved symbol 'main',1
+"CI infrastructure hiccup, restarting job",0
+"Build node worker-3 experiencing high load, test delayed !",0
+"Container startup timeout, extending deadline",0
+"BUG: Incorrect calculation in processPayment: expected ""success"", got 500...",1
+"WARN: CONCURRENT ACCESS ISSUE DETECTED, MARKING AS FLAKY",0
+[INFO] SERVICE CACHESERVICE TEMPORARILY UNAVAILABLE,0
+"[ERROR] BUG: Incorrect calculation in calculateTotal: expected ""success"", got ""error""",1
+ERROR: FATAL ERROR: Segmentation fault in CacheManager,1
+NullReferenceException in org.project.core.PaymentService,1
+OUT OF MEMORY ERROR DURING WRITE,1
+[INFO] Logic error: division by zero in handle [retryable],1
+[ERROR] Schema validation error: invalid format,1
+"Test TestAuthFlow is unstable, skipping for now",0
+"Timeout waiting for memory, test marked as flaky",0
+Resource temporarily unavailable: connection pool,0
+Permission denied: user test_user lacks access to memory,1
+"Network error: connection refused to db-server:6379, attempt 1/3",0
+"Test TestPaymentFlow is unstable, skipping for now",0
+Service AuthService temporarily unavailable !,0
+"Connection to CacheService timed out after 10000ms, retrying...",0
+"WARN: CONNECTION TO DATABASESERVICE TIMED OUT AFTER 5000MS, RETRYING...",0
+CRITICAL: Unhandled null reference in DataLayer [retryable],1
+Array index out of bounds at items[99],1
+Integration test failed: service AuthService returned unexpected status 401,1
+Spurious failure in parallel test execution: TestDataSync,0
+"Timeout waiting for memory, test marked as flaky !",0
+[ERROR] Deadlock detected but recovered in Scheduler,0
+[INFO] Temporary resource exhaustion in memory_pool...,0
+Resource temporarily unavailable: memory,0
+CRITICAL: Unhandled null reference in AuthModule (see logs for details),1
+REGRESSION: Feature report-generation broken after commit ghi9012,1
+REGRESSION: FEATURE DATA-EXPORT BROKEN AFTER COMMIT DEF5678 (SEE LOGS FOR DETAILS),1
+Service APIGateway temporarily unavailable,0
+Non-deterministic test result in TestDataSync,0
+Assertion failed: count == expected at Controller.cs:256...,1
+NullReferenceException in app.modules.PaymentService !,1
+Heap corruption detected in default_allocator,1
+WARN: Permission denied: user admin lacks access to cache [retryable],1
+"Socket timeout during execute, will retry (see logs for details)",0
+REGRESSION: Output differs from expected in TestConcurrentAccess,1
+WARN: Authorization failure for delete on file lock,1
+WARN: Jenkins agent disconnected temporarily during build,0
+CRITICAL: Unhandled null reference in Scheduler !,1
+Temporary resource exhaustion in thread_pool,0
+"FLAKY: Test TestCacheInvalidation failed intermittently, known issue",0
+"Thread timing issue in TestUserLogin, intermittent failure",0
+Compilation error: undefined reference to 'init' [retryable],1
+"Connection to UserService timed out after 30000ms, retrying...",0
+NON-DETERMINISTIC TEST RESULT IN TESTPAYMENTFLOW,0
+NullReferenceException in org.project.core.UserController,1
+"WARN: Socket timeout during execute, will retry",0
+Test flapping: TestConcurrentAccess passed after 3 retries...,0
+ValueError: Expected object but got NaN,1
+Assertion failed: x > 0 at Controller.cs:128,1
+"Cache miss caused timeout, retrying operation",0
+"Test TestConcurrentAccess is unstable, skipping for now",0
+CRITICAL: Unhandled null reference in EventBus,1
+TypeError: Cannot read property 'data' of undefined,1
+[ERROR] Intermittent failure in TestCacheInvalidation: connection reset by peer,0
+NullReferenceException in org.project.core.CacheHandler !,1
+"Thread timing issue in TestPaymentFlow, intermittent failure",0
+Type mismatch in Handler.ts: cannot convert int to boolean,1
+Random failure detected in PaymentTest.testCreate...,0
+WARN: VERIFICATION FAILED: LIST SHOULD NOT BE EMPTY,1
+"[DEBUG] Thread timing issue in TestAuthFlow, intermittent failure",0
+[ERROR] Critical bug in EventBus: data corruption detected,1
+Test flapping: TestPaymentFlow passed after 3 retries [retryable],0
+"Cache miss caused timeout, retrying operation",0
+"Build node worker-3 experiencing high load, test delayed",0
+"Test assertion mismatch: expected=""success"", actual=0",1
+"Database connection pool exhausted, waiting for free connection",0
+"[DEBUG] Possible race condition in EventBus, test unreliable",0
+"Build node worker-3 experiencing high load, test delayed",0
+"[DEBUG] Cache miss caused timeout, retrying operation",0
+"Possible race condition in EventBus, test unreliable",0
+Deadlock detected but recovered in AuthModule,0
+Security violation: invalid token in CacheService [retryable],1
+"AssertionError: Expected ""success"" but got false",1
+Stack overflow in recursive call at transform,1
+SCHEMA VALIDATION ERROR: CONSTRAINT VIOLATION,1
+"WARN: Connection to PaymentGateway timed out after 10000ms, retrying...",0
+Spurious failure in parallel test execution: TestUserLogin,0
+"Concurrent access issue detected, marking as flaky",0
+Compilation error: undefined reference to 'main',1
+"Container startup timeout, extending deadline",0
+ValueError: Expected array but got object,1
+ERROR: TypeError: Cannot read property 'id' of undefined,1
+Service MessageQueue temporarily unavailable,0
+"Socket timeout during delete, will retry",0
+"CONTAINER STARTUP TIMEOUT, EXTENDING DEADLINE",0
+"Socket timeout during execute, will retry",0
+"[INFO] Container startup timeout, extending deadline",0
+[INFO] Security violation: invalid token in DatabaseService,1
+Verification failed: values should match,1
+Build failed: syntax error in Controller.cs:512,1
+"Database connection pool exhausted, waiting for free connection",0
+"ERROR: BUILD NODE NODE-2 EXPERIENCING HIGH LOAD, TEST DELAYED",0
+Build failed: syntax error in Service.py:1024,1
+DEADLOCK DETECTED BUT RECOVERED IN DATALAYER...,0
+Jenkins agent disconnected temporarily during deploy,0
+Type mismatch in Module.go: cannot convert float to boolean,1
+[ERROR] Random failure detected in E2ETest.testQuery,0
+"[DEBUG] FLAKY: Test TestUserLogin failed intermittently, known issue",0
+Heap corruption detected in custom_allocator,1
+"Cache miss caused timeout, retrying operation",0
+Random failure detected in IntegrationTest.testQuery,0
+REGRESSION: Feature payment-flow broken after commit def5678 [retryable],1
+"[WARN] Build node node-1 experiencing high load, test delayed",0
+"[WARN] Timeout waiting for file lock, test marked as flaky",0
+"THREAD TIMING ISSUE IN TESTCONCURRENTACCESS, INTERMITTENT FAILURE (SEE LOGS FOR DETAILS)",0
+ERROR: Permission denied: user user123 lacks access to database,1
+"Possible race condition in CacheManager, test unreliable",0
+RESOURCE TEMPORARILY UNAVAILABLE: CACHE,0
+ASSERTION FAILED: COUNT == EXPECTED AT MAIN.JAVA:42,1
+NullReferenceException in org.project.core.PaymentService (see logs for details),1
+Out of memory error during write,1
+"Container startup timeout, extending deadline",0
+Missing dependency: libssl required by utils...,1
+"[DEBUG] Response mismatch in /api/payments: expected HTTP [1,2,3], got null [retryable]",1
+WARN: Jenkins agent disconnected temporarily during build,0
+Resource temporarily unavailable: database,0
+ERROR: Non-deterministic test result in TestUserLogin [retryable],0
+Logic error: division by zero in compute,1
+Authorization failure for delete on cache,1
+TypeError: Cannot read property 'result' of undefined,1
+[ERROR] CRITICAL: Authentication bypass detected in /api/payments,1
+Deadlock detected but recovered in CacheManager,0
+"Socket timeout during delete, will retry",0
+[WARN] LOGIC ERROR: DIVISION BY ZERO IN COMPUTE,1
+FATAL ERROR: Segmentation fault in EventBus,1
+CRITICAL: Authentication bypass detected in /api/users,1
+"Cache miss caused timeout, retrying operation",0
+Spurious failure in parallel test execution: TestAPIEndpoint,0
+ERROR: Random failure detected in IntegrationTest.testQuery,0
+Spurious failure in parallel test execution: TestDataSync,0
+[ERROR] Critical bug in Scheduler: data corruption detected,1
+Integration test failed: service UserService returned unexpected status 404,1
+"Build node worker-3 experiencing high load, test delayed",0
+"Cache miss caused timeout, retrying operation",0
+OUT OF MEMORY ERROR DURING DELETE (SEE LOGS FOR DETAILS),1
+[ERROR] TypeError: Cannot read property 'value' of undefined [retryable],1
+Jenkins agent disconnected temporarily during build,0
+"Connection to MessageQueue timed out after 1000ms, retrying...",0
+VERIFICATION FAILED: LIST SHOULD NOT BE EMPTY,1
+PERMISSION DENIED: USER USER123 LACKS ACCESS TO MEMORY,1
+[INFO] API contract violation: missing required field 'amount',1
+Integration test failed: service NotificationService returned unexpected status 404,1
+"[ERROR] Test assertion mismatch: expected=42, actual=500 (see logs for details)",1
+Compilation error: undefined reference to 'cleanup',1
+Security violation: invalid token in MessageQueue,1
+[INFO] SERVICE NOTIFICATIONSERVICE TEMPORARILY UNAVAILABLE,0
+FATAL: NullPointerException at UserController.compute:256,1
+"Possible race condition in Scheduler, test unreliable...",0
+[DEBUG] Verification failed: values should match...,1
+"Network error: connection refused to api-host:27017, attempt 2/3",0
+WARN: Resource temporarily unavailable: file lock,0
+Compilation error: undefined reference to 'process_data' !,1
+"[ERROR] Network error: connection refused to worker-1:8080, attempt 1/3",0
+Type mismatch in Service.py: cannot convert int to int,1
+CRITICAL BUG IN SCHEDULER: DATA CORRUPTION DETECTED...,1
+[DEBUG] Linker error: unresolved symbol 'main',1
+[WARN] Authorization failure for read on memory !,1
+WARN: Resource temporarily unavailable: file lock...,0
+Deadlock detected but recovered in DataLayer,0
+ERROR: NullReferenceException in app.modules.UserController,1
+Stack overflow in recursive call at validate,1
+Test flapping: TestAPIEndpoint passed after 5 retries,0
+Spurious failure in parallel test execution: TestAuthFlow,0
+"AssertionError: Expected ""success"" but got []",1
+Deadlock detected but recovered in EventBus,0
+ValueError: Expected string but got NaN,1
+"WARN: Build node node-1 experiencing high load, test delayed (see logs for details)",0
+RANDOM FAILURE DETECTED IN INTEGRATIONTEST.TESTUPDATE,0
+"Concurrent access issue detected, marking as flaky",0
+Logic error: division by zero in compute,1
+"Possible race condition in CacheManager, test unreliable",0
+"Timeout waiting for cache, test marked as flaky",0
+[WARN] LOGIC ERROR: DIVISION BY ZERO IN EXECUTE,1
+Schema validation error: missing required field,1
+Integration test failed: service AuthService returned unexpected status 404...,1
+Array index out of bounds at results[1000],1
+Jenkins agent disconnected temporarily during build,0
+Assertion failed: result != null at Service.py:1024,1
+Process crashed with signal SIGSEGV,1
+"Response mismatch in /api/payments: expected HTTP ""success"", got ""error""",1
+"Test assertion mismatch: expected=42, actual=[]",1
+[DEBUG] Linker error: unresolved symbol 'cleanup',1
+[DEBUG] PROCESS CRASHED WITH SIGNAL SIGSEGV,1
+Critical bug in Scheduler: data corruption detected,1
+Intermittent failure in TestAPIEndpoint: connection reset by peer,0
+WARN: FATAL ERROR: SEGMENTATION FAULT IN AUTHMODULE,1
+"Socket timeout during execute, will retry",0
+API contract violation: missing required field 'status',1
+Authorization failure for delete on memory,1
+Heap corruption detected in default_allocator,1
+Spurious failure in parallel test execution: TestPaymentFlow,0
+Intermittent failure in TestAuthFlow: connection reset by peer,0
+LOGIC ERROR: DIVISION BY ZERO IN TRANSFORM,1
+"Build node worker-3 experiencing high load, test delayed",0
+"Build node node-2 experiencing high load, test delayed",0
+"Concurrent access issue detected, marking as flaky [retryable]",0
+[INFO] REGRESSION: Feature data-export broken after commit def5678,1
+WARN: Out of memory error during write,1
+Integration test failed: service APIGateway returned unexpected status 401,1
+WARN: Build failed: syntax error in Service.py:512,1
+Random failure detected in E2ETest.testQuery,0
+"[WARN] Connection to NotificationService timed out after 1000ms, retrying...",0
+"Cache miss caused timeout, retrying operation !",0
+"[DEBUG] Thread timing issue in TestConcurrentAccess, intermittent failure",0
+WARN: Schema validation error: invalid format,1
+"Container startup timeout, extending deadline",0
+Stack overflow in recursive call at execute,1
+FATAL: NullPointerException at DataRepository.validate:512,1
+"BUG: Incorrect calculation in validateInput: expected true, got []",1
+"[ERROR] Test TestAuthFlow is unstable, skipping for now",0
+WARN: Schema validation error: constraint violation,1
+[ERROR] Deadlock detected but recovered in EventBus,0
+"CI INFRASTRUCTURE HICCUP, RESTARTING JOB",0
+Integration test failed: service MessageQueue returned unexpected status 401,1
+Temporary resource exhaustion in connection_pool,0
+Service MessageQueue temporarily unavailable...,0
+NULLREFERENCEEXCEPTION IN APP.MODULES.CACHEHANDLER,1
+FATAL ERROR: SEGMENTATION FAULT IN CACHEMANAGER,1
+Critical bug in Scheduler: data corruption detected,1
+FATAL ERROR: Segmentation fault in Scheduler,1
+NullReferenceException in org.project.core.DataRepository,1
+NON-DETERMINISTIC TEST RESULT IN TESTUSERLOGIN,0
+[ERROR] Build failed: syntax error in Handler.ts:256,1
+"[DEBUG] CI infrastructure hiccup, restarting job !",0
+"ERROR: Connection to DatabaseService timed out after 5000ms, retrying... (see logs for details)",0
+"[ERROR] Database connection pool exhausted, waiting for free connection",0
+REGRESSION: Output differs from expected in TestAuthFlow [retryable],1
+AssertionError: Expected 42 but got false [retryable],1
+Heap corruption detected in default_allocator,1
+TYPEERROR: CANNOT READ PROPERTY 'VALUE' OF UNDEFINED,1
+"BUG: Incorrect calculation in processPayment: expected true, got []",1
+Spurious failure in parallel test execution: TestUserLogin,0
+[INFO] Random failure detected in PaymentTest.testCreate,0
+"Build node node-1 experiencing high load, test delayed",0
+Stack overflow in recursive call at handle,1
+CRITICAL: Authentication bypass detected in /api/users,1
+Missing dependency: vendor required by handlers,1
+API contract violation: missing required field 'amount',1
+"Socket timeout during delete, will retry",0
+[INFO] Test flapping: TestDataSync passed after 2 retries,0
+"Build node node-2 experiencing high load, test delayed",0
+[INFO] Service AuthService temporarily unavailable,0
+"CI infrastructure hiccup, restarting job",0
+Security violation: invalid token in DatabaseService...,1
+Integration test failed: service UserService returned unexpected status 503...,1
+"Concurrent access issue detected, marking as flaky",0
+[DEBUG] Stack overflow in recursive call at process,1
+Temporary resource exhaustion in thread_pool,0
+Assertion failed: x > 0 at Service.py:256,1
+"Network error: connection refused to api-host:9200, attempt 1/3 [retryable]",0
+"[WARN] Timeout waiting for database, test marked as flaky",0
+Service DatabaseService temporarily unavailable !,0
+[INFO] Test flapping: TestPaymentFlow passed after 3 retries,0
+"Timeout waiting for memory, test marked as flaky",0
+"Build node node-2 experiencing high load, test delayed",0
+Resource temporarily unavailable: memory,0
+"[INFO] FLAKY: Test TestAuthFlow failed intermittently, known issue",0
+"Network error: connection refused to cache-node:6379, attempt 1/3",0
+ValueError: Expected number but got object...,1
+Array index out of bounds at results[1000] [retryable],1
+Build failed: syntax error in Controller.cs:1024,1
+COMPILATION ERROR: UNDEFINED REFERENCE TO 'PROCESS_DATA' [RETRYABLE],1
+[INFO] Verification failed: values should match !,1
+"Test TestUserLogin is unstable, skipping for now",0
+API contract violation: missing required field 'status' (see logs for details),1
+Temporary resource exhaustion in thread_pool,0
+WARN: Permission denied: user admin lacks access to file lock,1
+"[INFO] Response mismatch in /api/payments: expected HTTP true, got null",1
+NullReferenceException in org.project.core.PaymentService,1
+FATAL ERROR: Segmentation fault in AuthModule,1
+"Concurrent access issue detected, marking as flaky",0
+[DEBUG] Out of memory error during write,1
+TypeError: Cannot read property 'result' of undefined,1
+Security violation: invalid token in MessageQueue,1
+Linker error: unresolved symbol 'init',1
+Stack overflow in recursive call at validate,1
+API contract violation: missing required field 'user_id',1
+"ERROR: AssertionError: Expected ""success"" but got []",1
+[INFO] Schema validation error: invalid format,1
+"Thread timing issue in TestCacheInvalidation, intermittent failure",0
+Security violation: invalid token in UserService,1
+API contract violation: missing required field 'status' (see logs for details),1
+"CI infrastructure hiccup, restarting job",0
+WARN: Critical bug in DataLayer: data corruption detected (see logs for details),1
+"Test TestUserLogin is unstable, skipping for now...",0
+"Database connection pool exhausted, waiting for free connection",0
+"[ERROR] Socket timeout during delete, will retry",0
+[DEBUG] Schema validation error: invalid format,1
+"Concurrent access issue detected, marking as flaky",0
+[DEBUG] Verification failed: list should not be empty,1
+FATAL ERROR: SEGMENTATION FAULT IN AUTHMODULE,1
+TypeError: Cannot read property 'id' of undefined,1
+ERROR: Service CacheService temporarily unavailable,0
+FATAL ERROR: Segmentation fault in AuthModule,1
+Integration test failed: service CacheService returned unexpected status 500,1
+"[INFO] Container startup timeout, extending deadline",0
+Authorization failure for delete on memory,1
+Schema validation error: invalid format,1
+WARN: Resource temporarily unavailable: database,0
+CRITICAL: Authentication bypass detected in /api/auth,1
+Service APIGateway temporarily unavailable,0
+Stack overflow in recursive call at transform,1
+Heap corruption detected in custom_allocator,1
+"Database connection pool exhausted, waiting for free connection !",0
+"Cache miss caused timeout, retrying operation",0
+Array index out of bounds at items[1000],1
+Permission denied: user user123 lacks access to file lock,1
+TYPE MISMATCH IN CONTROLLER.CS: CANNOT CONVERT STRING TO INT,1
+"Container startup timeout, extending deadline",0
+"FLAKY: Test TestPaymentFlow failed intermittently, known issue",0
+"WARN: Possible race condition in EventBus, test unreliable",0
+ERROR: Resource temporarily unavailable: database,0
+Permission denied: user admin lacks access to memory,1
+"Test assertion mismatch: expected=[1,2,3], actual=""error"" [retryable]",1
+Test flapping: TestAuthFlow passed after 5 retries,0
+Non-deterministic test result in TestAPIEndpoint,0
+"BUG: Incorrect calculation in calculateTotal: expected ""success"", got null",1
+Array index out of bounds at results[99],1
+CRITICAL: Authentication bypass detected in /api/payments,1
+Permission denied: user user123 lacks access to database,1
+ERROR: Integration test failed: service UserService returned unexpected status 401,1
+[DEBUG] Integration test failed: service DatabaseService returned unexpected status 503,1
+FATAL ERROR: Segmentation fault in AuthModule,1
+Out of memory error during delete,1
+Missing dependency: node_modules required by core,1
+[INFO] Stack overflow in recursive call at process...,1
+REGRESSION: Feature user-login broken after commit ghi9012 [retryable],1
+Schema validation error: invalid format,1
+[INFO] SECURITY VIOLATION: INVALID TOKEN IN AUTHSERVICE...,1
+FATAL: NullPointerException at PaymentService.process:256,1
+"[WARN] Build node node-2 experiencing high load, test delayed (see logs for details)",0
+"[ERROR] Database connection pool exhausted, waiting for free connection (see logs for details)",0
+WARN: REGRESSION: Feature report-generation broken after commit abc1234,1
+"[INFO] Network error: connection refused to db-server:5432, attempt 3/3",0
+Authorization failure for write on cache,1
+"Container startup timeout, extending deadline",0
+Process crashed with signal SIGSEGV,1
+"[DEBUG] CI infrastructure hiccup, restarting job",0
+[INFO] Out of memory error during delete,1
+ASSERTION FAILED: X > 0 AT HANDLER.TS:1024,1
+Compilation error: undefined reference to 'cleanup' !,1
+[ERROR] Linker error: unresolved symbol 'cleanup' (see logs for details),1
+FATAL: NullPointerException at DataRepository.process:512,1
+Heap corruption detected in custom_allocator,1
+[ERROR] Jenkins agent disconnected temporarily during test,0
+Compilation error: undefined reference to 'cleanup' [retryable],1
+ERROR: Resource temporarily unavailable: database,0
+REGRESSION: FEATURE USER-LOGIN BROKEN AFTER COMMIT GHI9012 (SEE LOGS FOR DETAILS),1
+Compilation error: undefined reference to 'main',1
+NullReferenceException in app.modules.UserController,1
+ERROR: Random failure detected in E2ETest.testQuery,0
+"Test assertion mismatch: expected=200, actual=[] (see logs for details)",1
+[INFO] Compilation error: undefined reference to 'init'...,1
+"ERROR: Network error: connection refused to api-host:6379, attempt 1/3...",0
+Test flapping: TestDataSync passed after 5 retries !,0
+"Response mismatch in /api/payments: expected HTTP [1,2,3], got []",1
+Service NotificationService temporarily unavailable,0
+Out of memory error during read,1
+Assertion failed: x > 0 at Handler.ts:256,1
+"Socket timeout during read, will retry (see logs for details)",0
+"Connection to AuthService timed out after 30000ms, retrying... !",0
+WARN: Permission denied: user test_user lacks access to file lock,1
+FATAL: NullPointerException at CacheHandler.validate:128 !,1
+[DEBUG] Stack overflow in recursive call at validate,1
+[WARN] Integration test failed: service DatabaseService returned unexpected status 500,1
+ValueError: Expected string but got NaN !,1
+[ERROR] Type mismatch in Controller.cs: cannot convert float to string,1
+Out of memory error during write,1
+[DEBUG] CRITICAL: Authentication bypass detected in /api/data,1
+"[DEBUG] Concurrent access issue detected, marking as flaky",0
+WARN: Build failed: syntax error in Handler.ts:128,1
+ERROR: Logic error: division by zero in execute,1
+Type mismatch in Handler.ts: cannot convert int to string,1
+[WARN] Deadlock detected but recovered in AuthModule,0
+[INFO] AssertionError: Expected 200 but got 0 !,1
+"Cache miss caused timeout, retrying operation",0
+"[ERROR] Test TestPaymentFlow is unstable, skipping for now",0
+FATAL: NullPointerException at CacheHandler.transform:512...,1
+Array index out of bounds at results[99],1
+"Build node node-2 experiencing high load, test delayed",0
+Service CacheService temporarily unavailable...,0
+"Cache miss caused timeout, retrying operation...",0
+Process crashed with signal SIGSEGV,1
+"Timeout waiting for database, test marked as flaky",0
+"Timeout waiting for database, test marked as flaky",0
+"AssertionError: Expected 200 but got ""error""",1
+"[WARN] Build node worker-3 experiencing high load, test delayed...",0
+"Timeout waiting for cache, test marked as flaky",0
+Test flapping: TestPaymentFlow passed after 3 retries,0
+"Test assertion mismatch: expected=42, actual=false",1
+"[WARN] Test TestUserLogin is unstable, skipping for now",0
+[DEBUG] Out of memory error during write [retryable],1
+Intermittent failure in TestAuthFlow: connection reset by peer !,0
+"Test TestUserLogin is unstable, skipping for now",0
+SPURIOUS FAILURE IN PARALLEL TEST EXECUTION: TESTCONCURRENTACCESS,0
+"[ERROR] Database connection pool exhausted, waiting for free connection (see logs for details)",0
+Verification failed: list should not be empty,1
+Service MessageQueue temporarily unavailable,0
+"Test assertion mismatch: expected=true, actual=0",1
+API contract violation: missing required field 'timestamp',1
+API contract violation: missing required field 'status',1
+"Test assertion mismatch: expected=42, actual=0",1
+"ERROR: Test TestCacheInvalidation is unstable, skipping for now",0
+REGRESSION: Output differs from expected in TestUserLogin,1
+"Timeout waiting for cache, test marked as flaky",0
+"[ERROR] Possible race condition in Scheduler, test unreliable",0
+"Test TestAuthFlow is unstable, skipping for now",0
+"[INFO] CI infrastructure hiccup, restarting job",0
+Deadlock detected but recovered in AuthModule [retryable],0
+"Concurrent access issue detected, marking as flaky",0
+Process crashed with signal SIGSEGV,1
+[WARN] Resource temporarily unavailable: memory,0
+[WARN] Integration test failed: service APIGateway returned unexpected status 500,1
+Jenkins agent disconnected temporarily during deploy,0
+Process crashed with signal SIGSEGV,1
+Jenkins agent disconnected temporarily during test,0
+[ERROR] Compilation error: undefined reference to 'main',1
+Security violation: invalid token in DatabaseService,1
+Type mismatch in Controller.cs: cannot convert float to boolean,1
+"TEST TESTAPIENDPOINT IS UNSTABLE, SKIPPING FOR NOW",0
+STACK OVERFLOW IN RECURSIVE CALL AT HANDLE,1
+"Database connection pool exhausted, waiting for free connection",0
+CRITICAL: Authentication bypass detected in /api/users,1
+"Build node worker-3 experiencing high load, test delayed !",0
+"ERROR: Possible race condition in AuthModule, test unreliable",0
+CRITICAL BUG IN CACHEMANAGER: DATA CORRUPTION DETECTED,1
+Assertion failed: count == expected at Handler.ts:256 !,1
+[DEBUG] Array index out of bounds at results[99],1
+WARN: TEST FLAPPING: TESTCACHEINVALIDATION PASSED AFTER 5 RETRIES,0
+"[ERROR] Possible race condition in AuthModule, test unreliable",0
+"SOCKET TIMEOUT DURING DELETE, WILL RETRY",0
+WARN: Permission denied: user user123 lacks access to cache,1
+Compilation error: undefined reference to 'main',1
+"Thread timing issue in TestUserLogin, intermittent failure",0
+"Test assertion mismatch: expected=""success"", actual=""error""",1
+Deadlock detected but recovered in Scheduler,0
+"BUG: Incorrect calculation in processPayment: expected ""success"", got 0",1
+CRITICAL: Authentication bypass detected in /api/users,1
+"[DEBUG] Build node node-1 experiencing high load, test delayed...",0
+[ERROR] REGRESSION: Feature report-generation broken after commit ghi9012,1
+"Cache miss caused timeout, retrying operation...",0
+Intermittent failure in TestCacheInvalidation: connection reset by peer,0
+[DEBUG] Permission denied: user user123 lacks access to file lock,1
+NullReferenceException in com.app.services.PaymentService,1
+FATAL: NullPointerException at CacheHandler.process:128,1
+"Socket timeout during delete, will retry",0
+"CI infrastructure hiccup, restarting job",0
+WARN: Test flapping: TestUserLogin passed after 5 retries,0
+Logic error: division by zero in compute...,1
+[INFO] TypeError: Cannot read property 'name' of undefined,1
+"Database connection pool exhausted, waiting for free connection",0
+Test flapping: TestUserLogin passed after 2 retries,0
+"Database connection pool exhausted, waiting for free connection",0
+Service MessageQueue temporarily unavailable,0
+"[ERROR] Cache miss caused timeout, retrying operation !",0
+REGRESSION: Output differs from expected in TestAPIEndpoint,1
+AssertionError: Expected true but got 500,1
+"Possible race condition in DataLayer, test unreliable",0
+Assertion failed: count == expected at Service.py:42,1
+Test flapping: TestPaymentFlow passed after 3 retries,0
+[ERROR] Test flapping: TestAuthFlow passed after 2 retries,0
+"Network error: connection refused to localhost:27017, attempt 3/3",0
+Out of memory error during read (see logs for details),1
+[ERROR] Temporary resource exhaustion in thread_pool,0
+Resource temporarily unavailable: memory...,0
+"Concurrent access issue detected, marking as flaky",0
+ERROR: Build failed: syntax error in Handler.ts:128,1
+Critical bug in AuthModule: data corruption detected,1
+"BUG: Incorrect calculation in validateInput: expected 42, got 0",1
+Out of memory error during read,1
+Jenkins agent disconnected temporarily during build,0
+WARN: Array index out of bounds at data[-1],1
+Process crashed with signal SIGSEGV,1
+[ERROR] Security violation: invalid token in APIGateway [retryable],1
+Random failure detected in E2ETest.testQuery,0
+CRITICAL: Authentication bypass detected in /api/users [retryable],1
+[ERROR] REGRESSION: Feature user-login broken after commit ghi9012,1
+FATAL: NullPointerException at DataRepository.process:512,1
+REGRESSION: Output differs from expected in TestAPIEndpoint...,1
+"WARN: CI INFRASTRUCTURE HICCUP, RESTARTING JOB",0
+WARN: MISSING DEPENDENCY: VENDOR REQUIRED BY SERVICES,1
+[WARN] Missing dependency: node_modules required by core,1
+Test flapping: TestPaymentFlow passed after 3 retries,0
+REGRESSION: Output differs from expected in TestCacheInvalidation,1
+REGRESSION: Feature user-login broken after commit ghi9012,1
+"CI infrastructure hiccup, restarting job",0
+Resource temporarily unavailable: file lock,0
+Stack overflow in recursive call at handle,1
+Integration test failed: service CacheService returned unexpected status 404 [retryable],1
+Assertion failed: result != null at Module.go:128,1
+"Concurrent access issue detected, marking as flaky",0
+"Connection to PaymentGateway timed out after 10000ms, retrying...",0
+"[DEBUG] CONCURRENT ACCESS ISSUE DETECTED, MARKING AS FLAKY",0
+"DATABASE CONNECTION POOL EXHAUSTED, WAITING FOR FREE CONNECTION",0
+Intermittent failure in TestUserLogin: connection reset by peer,0
+[WARN] Spurious failure in parallel test execution: TestDataSync,0
+ERROR: Missing dependency: vendor required by services,1
+Non-deterministic test result in TestAuthFlow,0
+"Network error: connection refused to localhost:5432, attempt 3/3",0
+Process crashed with signal SIGSEGV,1
+"Container startup timeout, extending deadline...",0
+"Container startup timeout, extending deadline",0
+"Concurrent access issue detected, marking as flaky",0
+[ERROR] FATAL ERROR: Segmentation fault in EventBus [retryable],1
+Spurious failure in parallel test execution: TestAPIEndpoint,0
+Linker error: unresolved symbol 'init' [retryable],1
+"[WARN] CI infrastructure hiccup, restarting job",0
+[WARN] Integration test failed: service APIGateway returned unexpected status 500,1
+ERROR: Schema validation error: invalid format,1
+"ERROR: CI INFRASTRUCTURE HICCUP, RESTARTING JOB",0
+"WARN: CI infrastructure hiccup, restarting job",0
+"WARN: Cache miss caused timeout, retrying operation",0
+"Network error: connection refused to localhost:6379, attempt 1/3",0
+"CI infrastructure hiccup, restarting job",0
+Test flapping: TestPaymentFlow passed after 2 retries,0
+"DATABASE CONNECTION POOL EXHAUSTED, WAITING FOR FREE CONNECTION",0
+"THREAD TIMING ISSUE IN TESTCONCURRENTACCESS, INTERMITTENT FAILURE",0
+Build failed: syntax error in Module.go:42,1
+"Possible race condition in Scheduler, test unreliable",0
+Permission denied: user user123 lacks access to database...,1
+Random failure detected in IntegrationTest.testValidation,0
+[INFO] Random failure detected in E2ETest.testDelete,0
+Intermittent failure in TestConcurrentAccess: connection reset by peer,0
+[INFO] Logic error: division by zero in handle,1
+"[WARN] Connection to CacheService timed out after 30000ms, retrying...",0
+"[DEBUG] Test TestAPIEndpoint is unstable, skipping for now",0

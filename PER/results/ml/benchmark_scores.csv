@@ -1,0 +1,4 @@
+model_name,score_f1_test,score_cv_f1,score_stability,score_overfit,score_speed,total_score
+XGBoost,1.0,1.0,1.0,0.0,0.0,1.0
+GradientBoosting,0.9321420607042102,0.94155651169444,0.9096653787192538,0.8847352024922119,1.0,0.9325363388025587
+AdaBoost,0.0,0.0,0.0,1.0,0.29714285714285715,0.0
