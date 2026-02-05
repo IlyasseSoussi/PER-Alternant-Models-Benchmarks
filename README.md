@@ -78,8 +78,7 @@ PER/
 │   └── dl/
 │       ├── benchmark_results.csv   # Métriques détaillées DL
 │       ├── benchmark_scores.csv    # Scores pondérés DL
-│       ├── figures/                # Graphiques DL
-│       └── */checkpoint-*/         # Checkpoints des modèles entraînés
+│       └── figures/                # Graphiques DL
 │
 └── requirements.txt                # Dépendances Python
 ```
@@ -130,7 +129,7 @@ python scripts/benchmark_transformers.py
 
 **Sortie** :
 - `results/dl/benchmark_results.csv` - Métriques détaillées
-- `results/dl/*/checkpoint-*/` - Modèles entraînés (checkpoints)
+- `results/dl/benchmark_scores.csv` - Scores pondérés
 - `results/dl/figures/` - Graphiques de comparaison
 
 ---
@@ -206,3 +205,15 @@ transformers:
     learning_rate: 2e-5
 ```
 
+---
+
+## Références
+
+- [Scikit-learn](https://scikit-learn.org/)
+- [XGBoost](https://xgboost.readthedocs.io/)
+- [Hugging Face Transformers](https://huggingface.co/transformers/)
+- [PyTorch](https://pytorch.org/)
+
+---
+
+*Projet réalisé dans le cadre d'un PER - Alternance Ingénieur Logiciel/Data*
