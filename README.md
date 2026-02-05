@@ -205,15 +205,3 @@ transformers:
     learning_rate: 2e-5
 ```
 
----
-
-## Références
-
-- [Scikit-learn](https://scikit-learn.org/)
-- [XGBoost](https://xgboost.readthedocs.io/)
-- [Hugging Face Transformers](https://huggingface.co/transformers/)
-- [PyTorch](https://pytorch.org/)
-
----
-
-*Projet réalisé dans le cadre d'un PER - Alternance Ingénieur Logiciel/Data*
